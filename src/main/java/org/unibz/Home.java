@@ -53,7 +53,7 @@ public class Home extends JFrame {
         setLayout(new FlowLayout());
         getContentPane().setBackground(Color.YELLOW);
         getContentPane().add(hyperlink);
-        JLabel l3=new JLabel(new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\home.jpg")); 
+        JLabel l3=new JLabel(new ImageIcon("src/main/resources/photos/home.jpg")); 
         add(l3);
         JLabel l4=new JLabel("Properties to call home\r\n."); 
         add(l4);

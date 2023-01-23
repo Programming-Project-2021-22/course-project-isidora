@@ -13,7 +13,7 @@ public class Properties extends JFrame {
       p1.setBounds(50, 50, 300, 250);
       p1.setBackground(Color.RED);
       cp.add(p1);
-      JLabel label1 = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\Apartment2.jpg"));
+      JLabel label1 = new JLabel (new ImageIcon("src/main/resources/photos/Apartment2.jpg"));
       p1.add(label1);
       JLabel label2 = new JLabel ("Penthouse");
       p1.add(label2);
@@ -21,7 +21,7 @@ public class Properties extends JFrame {
       p2.setBounds(400,400, 300, 250);
       p2.setBackground(Color.BLUE);
       cp.add(p2);
-      JLabel label = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\Apartment1.jpg"));
+      JLabel label = new JLabel (new ImageIcon("src/main/resources/photos/Apartment1.jpg"));
       p2.add(label);
       JLabel label3 = new JLabel ("Two bedroom");
       p2.add(label3);
@@ -29,7 +29,7 @@ public class Properties extends JFrame {
       p3.setBounds(400,50, 300, 220);
       p3.setBackground(Color.RED);
       cp.add(p3);
-      JLabel label4 = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\One bedroom.jpg"));
+      JLabel label4 = new JLabel (new ImageIcon("src/main/resources/photos/One bedroom.jpg"));
       p3.add(label4);
       JLabel label5 = new JLabel ("Penthouse layout");
       p3.add(label5);
@@ -37,7 +37,7 @@ public class Properties extends JFrame {
       p6.setBounds(50,400, 300, 220);
       p6.setBackground(Color.BLUE);
       cp.add(p6);
-      JLabel label6 = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\index.jpg"));
+      JLabel label6 = new JLabel (new ImageIcon("src/main/resources/photos/index.jpg"));
       p6.add(label6);
       JLabel label7 = new JLabel ("Two bedroom layout");
       p6.add(label7);

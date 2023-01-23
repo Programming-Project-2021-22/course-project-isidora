@@ -42,11 +42,11 @@ public class GUI {
             frame2.setVisible(true);
             frame2.setSize(700,400);
             frame2.getContentPane().setBackground(Color.red);
-            JLabel label = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\Building.jpg"));
+            JLabel label = new JLabel (new ImageIcon("src/main/resources/photos/Building.jpg"));
             JPanel panel = new JPanel ();
             frame2.add(panel);
             panel.add(label);
-            JLabel label3 = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\Building2.jpg"));
+            JLabel label3 = new JLabel (new ImageIcon("src/main/resources/photos/Building2.jpg"));
             panel.add(label3);
             JLabel label4 = new JLabel ("We concentrate entirely on new build apartments and houses.");
             panel.add(label4);

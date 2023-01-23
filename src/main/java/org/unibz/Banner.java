@@ -81,7 +81,7 @@ public class Banner extends JPanel implements Runnable
   {
       JFrame frame = new JFrame ( "Banner" );
       Banner panel = new Banner (600, 600 );
-      JLabel label1 = new JLabel (new ImageIcon("C:\\Users\\anaer\\eclipse-workspace\\Project Java\\Fotos\\images.jpg"));
+      JLabel label1 = new JLabel (new ImageIcon("src/main/resources/photos/images.jpg"));
       panel.add(label1);
       frame.getContentPane().add (panel);
       frame.setSize ( panel.width, panel.height );
