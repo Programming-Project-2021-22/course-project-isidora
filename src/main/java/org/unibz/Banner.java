@@ -1,10 +1,15 @@
 package org.unibz;
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
+/**
+ * The class provides methods to present Banner which displays a scrolling text and an image.
+ * In Class Banner is used InterruptedException to restore the interrupted status. It is used if some other thread wants to interrupt the thread that is
+sleeping.
+ * Covered topic: Exception, Treading, Try-Catch blocks, Threading
+ * @author isidora.erakovic
+ *
+ */
 @SuppressWarnings("serial")
 public class Banner extends JPanel implements Runnable
 {

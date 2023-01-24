@@ -1,9 +1,13 @@
 package org.unibz;
-
 import java.util.*;
 import java.util.stream.Collectors;
 class PropertiesList {
-	
+/**
+ * In the class PropertiesList are properties sorted based on their value (price) and name of streets in alphabetical order
+ * Covered topics: Stream
+ * @author isidora.erakovic
+ * @param args
+ */
 	public static void main(String[] args) {
 		System.out.println("Available properties sorted from lowest to highest price:\n ");
 		List<Property> properties = getProperties();

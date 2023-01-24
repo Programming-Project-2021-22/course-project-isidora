@@ -1,5 +1,4 @@
 package org.unibz;
-
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Desktop;
@@ -15,7 +14,12 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
- 
+ /**
+  * Class Home is providing link to the Website which is under construction
+  * Covered topics: Graphical user interface (Java GUI Swing)
+  * @author isidora.erakovic
+  *
+  */
 
 @SuppressWarnings("serial")
 public class Home extends JFrame {

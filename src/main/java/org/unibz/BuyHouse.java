@@ -1,14 +1,18 @@
 package org.unibz;
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Scanner;
 import java.text.NumberFormat;
-
-
+/**
+ * From class Buy is created class BuyingHouse
+ * This class implements methods buying and getCalculator. Method buying is providing list of available houses and calculator is calculating monthly payment. 
+ * In class BuyHouse is created a houselist with type of houses and it is used Hashset that we avoid double showing of streets where are the houses.
+ * Covered topics: Collections 
+ * @author isidora.erakovic
+ *
+ */
 public class BuyHouse implements Buy {
 	ArrayList<String> areas = new ArrayList<>(Arrays.asList("Italy","Germany"));
 	@Override

@@ -1,6 +1,13 @@
 package org.unibz;
 
 import java.util.Scanner;
+/**
+ * Program class is the main class that presents activities of one reals estate management system. It is a main class for or classes that do not have graphic interface.
+ * GenericPrinter created and implemented in class Program – ID and Turnover.
+ * Covered topics: Generic classes
+ * @author isidora.erakovic
+ *
+ */
 public class Program {
     Properties gui = new Properties();
 	public static void main(String[] args) {

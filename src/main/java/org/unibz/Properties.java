@@ -2,7 +2,12 @@ package org.unibz;
 
 import java.awt.*;
 import javax.swing.*;
- 
+ /**
+  * Class Properties implements methods to show properties in the offer.
+  * Covered topic: Graphical user interface (Java GUI Swing) 
+  * @author isidora.erakovic
+  *
+  */
 @SuppressWarnings("serial")
 public class Properties extends JFrame {
   

@@ -1,11 +1,16 @@
 package org.unibz;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * The class provides methods to write and read file content. In class Agreement is stored Customer Agreement which can be updated and read (\eclipse-workspace\Project Java).
+ * Covered topic: File O/I, try/catch
+ * @author isidora.erakovic
+ *
+ */
 public class Agreement {
  public void agree() {
 	 

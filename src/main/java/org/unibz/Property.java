@@ -1,6 +1,10 @@
 package org.unibz;
 
-
+/**
+ * This class Property is used for creating list of properties and their values which are sorted in class PropertiesList
+ * @author isidora.erakovic
+ *
+ */
 public class Property {
 	private final String name;
 	private final int value;

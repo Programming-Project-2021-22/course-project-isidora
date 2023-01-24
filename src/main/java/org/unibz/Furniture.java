@@ -1,8 +1,12 @@
 package org.unibz;
-
 import java.util.ArrayList;
 import java.util.HashSet;
-
+/**
+ * From Rent is created class Furniture. Hashset is used in class Furniture to avoid double showing of parameters in a list of furniture
+ * Covered topic: Collection
+ * @author isidora.erakovic
+ *
+ */
 public class Furniture implements Rent {
 	
 	public void renting() {

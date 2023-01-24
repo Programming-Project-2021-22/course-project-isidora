@@ -1,9 +1,13 @@
 package org.unibz;
-
 import java.awt.*;
-
 import java.awt.event.*;
 import javax.swing.*;
+/**
+ * Class GUI is showing future projects.
+ * Covered topics: Graphical user interface (Java GUI Swing), lambda expression
+ * @author isidora.erakovic
+ *
+ */
 public class GUI {
 	GUI() {    
 		   

@@ -1,11 +1,16 @@
 package org.unibz;
-
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.*;  
+/**
+ * The class provides methods to present list of boats and owners and financing calculation. 
+ * Covered topics: Lambda expression
+ * @author isidora.erakovic
+ *
+ */
 public class Boat extends BuyBoat {
 	ArrayList<String> boatslist = new ArrayList<>(Arrays.asList("Fisch Boat","Life Boat","Sail Boat"));
 	ArrayList<String> boatsprice = new ArrayList<>();

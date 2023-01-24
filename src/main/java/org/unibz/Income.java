@@ -1,9 +1,12 @@
 package org.unibz;
-
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
-
+/**
+ * Class Income implements method which calculates tax amount based on the income
+ * @author isidora.erakovic
+ *
+ */
 public class Income  {
 public static double incomes() {
 Scanner sc=new Scanner(System.in);
