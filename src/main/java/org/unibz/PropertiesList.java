@@ -27,7 +27,7 @@ class PropertiesList {
 		new Property("Penthouse ",300000),
 		new Property("Two Bedroom ",250000),
 		new Property("One Bedroom ",150000)
-	);
+	); 
 		
 		}
 	
