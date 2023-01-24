@@ -7,8 +7,7 @@ This Real Estate Management System is developed using Java. In this project cust
 
 ### 1.1. Demo
 
-Add a link to a demo of your project.
-https://youtu.be/CrUugMY6TFE
+https://youtu.be/VOX579QtdUk
 
 ## 2. Authors
 
