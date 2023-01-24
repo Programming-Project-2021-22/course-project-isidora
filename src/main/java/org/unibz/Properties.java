@@ -58,6 +58,7 @@ public class Properties extends JFrame {
       btn.addActionListener(e -> {
       dispose();
       });
+     
    }
  
  
@@ -69,7 +70,7 @@ public class Properties extends JFrame {
             new Properties(); 
          }
       });
-     
+    
    }
   
 

@@ -84,6 +84,7 @@ public class Banner extends JPanel implements Runnable
 
   public static void main ( String[] args )
   {
+	  
       JFrame frame = new JFrame ( "Banner" );
       Banner panel = new Banner (600, 600 );
       JLabel label1 = new JLabel (new ImageIcon("src/main/resources/photos/images.jpg"));
@@ -96,7 +97,10 @@ public class Banner extends JPanel implements Runnable
               System.exit ( 0 );
           }
       } );
+      Properties prop = new Properties();
+      prop.main(null);
   }
+ 
 }
         	
          
