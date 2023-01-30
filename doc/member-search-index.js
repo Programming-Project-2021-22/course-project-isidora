@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"org.unibz","c":"Boat","l":"Boat()","u":"%3Cinit%3E()"},{"p":"org.unibz","c":"Boat","l":"boatsale()"},{"p":"org.unibz","c":"Boat","l":"getCalculator(int, int)","u":"getCalculator(int,int)"},{"p":"org.unibz","c":"Boat","l":"promptEnterKey()"}];updateSearchResults();

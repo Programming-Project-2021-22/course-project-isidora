@@ -11,8 +11,17 @@ import java.io.IOException;
  * @author isidora.erakovic
  *
  */
+
+/**
+ * comment
+ * @author isidora.erakovic
+ *
+ */
 public class Agreement {
- public void agree() {
+ /**
+ * method agree
+ */
+public void agree() {
 	 
 	 String[] clients = {"Find your ideal real estate", "If you need a secure business partner, you can knock on our door."};
 	 try {
