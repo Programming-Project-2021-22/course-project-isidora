@@ -7,8 +7,7 @@ This Real Estate Management System is developed using Java. In this project cust
 
 ### 1.1. Demo
 
-Add a link to a demo of your project.
-https://youtu.be/CrUugMY6TFE
+https://youtu.be/VOX579QtdUk
 
 ## 2. Authors
 
@@ -18,23 +17,24 @@ This project was created by:
 
 ## 3. Usage
 
-Describe how to compile, package, and run your project here.
+Classes are saved as .java and used to follow along with the different procedures. There are two main classes Program.java and Banner.java.
 From the Package Explorer tab, browse the examples in src/main/java folder. To run an example, just right click on the file and choose Run As - Java Application, the example will be executed and the output will be shown in the built in console output window.
-A classes are the basic building blocks in java program. Classes are saved as .java and used to follow along with the different procedures.
+In folder src/test/java are located tests. To run an example, just right click on the file and choose Run As - JUnit Test.
+
 
 To build the project, run:
 mvn package
 
 
 To test, run:
-src/test/java
+JUnit Test
 
 ## 4. Implementation
 
 ### 4.1. Architectural Overview
 
-There is one main class without a user interface(Program.java).
-Main classes using a user interface are Banner.java, GUI.java, Home.java, Properties.java and PropertiesList.java.
+It is followed standard Maven project structure: src\main\java...\resources and ..test\java ...\resources.
+There are more classes that can run independently: Program.java, Banner.java, GUI.java, Home.java and Properties.java
 
 
 ### 4.2. Third-Party Libraries
