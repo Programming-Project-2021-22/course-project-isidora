@@ -27,7 +27,9 @@ mvn package
 
 
 To test, run:
-JUnit Test
+mvn test
+
+To run the project, start course-project-isidora>src/main/java>org.unibz>run for gui:Program.java and Banner.java
 
 ## 4. Implementation
 
