@@ -13,9 +13,7 @@ public class Program {
     Properties gui = new Properties();
     
 	public static void main(String[] args) {
-	
-	Home home = new Home();
-	home.main(null);
+	Home.main(null);
 	System.out.println("We are a company that has been selling living space for a long time.");
 	for (int i=0; i<=2; i++) {
 	Commercial about = new Commercial();

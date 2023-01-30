@@ -53,11 +53,9 @@ public class Boat extends BuyBoat {
 		   System.out.println("Press \"ENTER\" to find out more about our offers");
 		   Scanner in = new Scanner(System.in);
 		   in.nextLine();
-		 
-		   
+		 	   
 		   
 		}
 
 	
-
 }
